@@ -13,7 +13,7 @@ import Home from './components/frontend/Home';
       <Routes>
       <Route path="/" element={<Home />} /> 
       <Route path="/admin" element={<MasterLayout />} > 
-      <Route exact path='/admin/dashboard' element={<Dashboard />}/>
+      <Route path='/admin/dashboard' element={<Dashboard />}/>
       <Route path='/admin/profile' element={<Profile />}/>
       </Route>
       </Routes>

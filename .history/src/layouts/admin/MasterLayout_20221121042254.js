@@ -25,7 +25,10 @@ const MasterLayout = ()=>{
                 <main>
                  
                  <Outlet/>
-                 
+                 <Route
+              path="/admin"
+              element={<Navigate to="/admin/dashboard"/>}
+            />
                  </main>
                      
                 <Footer/>

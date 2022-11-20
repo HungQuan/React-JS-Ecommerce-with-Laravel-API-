@@ -25,7 +25,7 @@ const MasterLayout = ()=>{
                 <main>
                  
                  <Outlet/>
-                 
+                 <Navigate from="/" to="/admin/dashboard"/> 
                  </main>
                      
                 <Footer/>

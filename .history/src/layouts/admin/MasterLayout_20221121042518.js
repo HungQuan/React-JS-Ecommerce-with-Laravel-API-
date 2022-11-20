@@ -25,7 +25,7 @@ const MasterLayout = ()=>{
                 <main>
                  
                  <Outlet/>
-                 
+              
                  </main>
                      
                 <Footer/>
